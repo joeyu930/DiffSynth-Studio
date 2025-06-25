@@ -1,0 +1,1 @@
+ python train3.py --task data_process --dataset_path ~/dataset/s3 --output_path ./models --text_encoder_path models/Wan-AI/Wan2.1-VACE-1.3B/models_t5_umt5-xxl-enc-bf16.pth  --vae_path models/Wan-AI/Wan2.1-VACE-1.3B/Wan2.1_VAE.pth --tiled --num_frames 41 --height 512 --width 288
